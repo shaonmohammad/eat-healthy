@@ -16,6 +16,12 @@ h1 {
     color: rgb(102, 100, 100);
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(90, 87, 87);
+}
+
 p {
     color: gray;
     font-size: 20px;
@@ -34,6 +40,7 @@ p {
     padding: 20px 40px;
     border-radius: 30px;
     font-weight: 500;
+    font-size: 20px;
 
 }
 
@@ -55,4 +62,54 @@ p {
 
 .about {
     background-image: url(eat-healthy-main/images/shapes/Frame\ 58.jpg);
+
+}
+
+.recipies {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 40%;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    padding: 25px 0px;
+
+}
+
+.card img {
+    width: 90%;
+}
+
+.social-media h1 {
+    color: black;
+}
+
+.social-media {
+    display: flex;
+    box-shadow: 10px 10px 30px gray;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    width: 80%;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
 }
